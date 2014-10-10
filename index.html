@@ -4,6 +4,7 @@
         <title>Blog</title>
 
         <link rel="stylesheet" href="css/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
@@ -11,23 +12,31 @@
         <div class="content-wrapper">
             <header class="top-header">
                 <h1>Kelsey's Blog</h1>
-                <h4 class="subtext">the best blog you'll ever read</h4>
+                <h4 class="top-subtext">the best blog you'll ever read</h4>
                 <nav class="top-nav">
-                    <ul>
-                        <li><a href="index.html">Blog</a></li>
-                        <li><a href="about.html">About Me</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                    <ul class="nav-list">
+                        <li><a class="nav-link" href="index.html">Blog</a></li>
+                        <li><a class="nav-link" href="about.html">About Me</a></li>
+                        <li><a class="nav-link" href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </header>
             <main class="main-content">
+                <h2>My Blog Posts</h2>
+                <aside class="main-aside">
+                    <article class="featured-entry">
+                        <h3 class ="featured-title">Another Day at the DevHouse</h3>
+                        <h4 class="featured-date">Sunday, October 5, 2014</h4>
+                        <p class="featured-content">Gone Girl, Chicago-style hot dogs, Kanye & and Parks & Rec. GREAT DAY.</p>
+                        <img src="">
+                    </article>
+                </aside>
                 <section class="main-section">
-                    <h2>My Blog Posts</h2>
                     <article class="blog-entry">
                         <h3 class ="entry-title">A New Day at MakerSquare</h3>
                         <h4 class="entry-date">Thursday, October 9, 2014</h4>
                         <p class="entry-content">Today is Day 4 on the Senior Side at MakerSquare. We are working on HTML and CSS wooooo!!! </p>
-                        <img src="class.jpg">
+                        <img class="horiz-img" src="class.jpg">
                     </article>
                     <article class="blog-entry">
                         <h3 class ="entry-title">And Another Day at MakerSquare</h3>
@@ -42,11 +51,10 @@
                     <article class="blog-entry">
                         <h3 class ="entry-title">A Day at MakerSquare</h3>
                         <h4 class="entry-date">Monday, October 6, 2014</h4>
-                        <p class="entry-content">Today we started doing a Single Page Application (SPA) called Quizzy.</p>
                         <h4 class="subtext">Schedule for the Week</h4>
                         <table class="schedule">
                             <tr>
-                                <th></th>
+                                <th class="th-blank"></th>
                                 <th>Monday</th>
                                 <th>Tuesday</th>
                                 <th>Wednesday</th>
@@ -54,7 +62,7 @@
                                 <th>Friday</th>
                             </tr>
                             <tr>
-                                <td>Morning:</td>
+                                <td class="td-first">Morning:</td>
                                 <td>Quizzy</td>
                                 <td>Quizzy</td>
                                 <td>Quizzy</td>
@@ -62,7 +70,7 @@
                                 <td>GitHub Pages</td>
                             </tr>
                             <tr>
-                                <td>Afternoon:</td>
+                                <td class="td-first">Afternoon:</td>
                                 <td>Quizzy</td>
                                 <td>Quizzy</td>
                                 <td>Quizzy</td>
@@ -70,6 +78,7 @@
                                 <td>Templates</td>
                             </tr>
                         </table>
+                        <p class="entry-content">Today we started doing a Single Page Application (SPA) called Quizzy.</p>
                     </article>
                     <article class="blog-entry">
                         <h3 class ="entry-title">A Day at the DevHouse</h3>
@@ -77,16 +86,8 @@
                         <p class="entry-content">Baylor Tailgate brunch with Alex! Then coding, some more coding and then even more coding. </p>
                     </article>
                 </section>
-                <aside class="main-aside">
-                    <article class="featured-entry">
-                        <h3 class ="featured-title">Another Day at the DevHouse</h3>
-                        <h4 class="featured-date">Sunday, October 5, 2014</h4>
-                        <p class="featured-content">Gone Girl, Chicago-style hot dogs, Kanye & and Parks & Rec. GREAT DAY.</p>
-                        <img src="">
-                    </article>
-                </aside>
             </main>
-            <footer class="main-footer">
+            <footer class="bottom-footer">
             </footer>
         </div>
 

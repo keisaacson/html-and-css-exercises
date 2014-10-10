@@ -1,0 +1,165 @@
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+
+.clear:after {
+    clear: both;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.content-wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.top-header {
+	background-color: #8078b0;
+	color: #333;
+	font-family: 'Arimo', sans-serif;
+}
+
+h1 {
+	font-size: 3em;
+	float: left;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+h2 {
+	font-size: 2em;
+	display: block;
+	margin-top: 10px;
+	color: #333;
+}
+
+.nav-list {
+	float: right;
+	margin-top: -40px;
+}
+
+.nav-list li {
+	display: inline;
+	margin: 0 10px;
+	color: #333;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: black;
+	padding: 5px 10px;
+}
+
+.nav-link:hover {
+	background-color: #484170;
+	color: white;
+	border-radius: .5em;
+}
+
+.top-subtext {
+	clear: both;
+	margin-left: 10px;
+	padding-bottom: 10px;
+}
+
+.main-content {
+	font-family: 'Arimo', sans-serif;
+}
+
+.main-section {
+	width: 700px;
+	margin: 0 auto;
+	float: left;
+}
+
+.main-aside {
+	width: 260px;
+	margin: 0 auto;
+	float: right;
+}
+
+.blog-entry {
+	background-color: #b3aecf;
+	margin: 10px auto;
+	width: 650px;
+	border-radius: .2em;
+	color: #333;
+}
+
+.entry-title {
+	font-size: 1.5em;
+	background-color: #8078b0;
+	color: white;
+	border-radius: .2em;
+	padding: 5px 10px;
+}
+
+.entry-date {
+	font-style: italic;
+	font-size: .8em;
+	margin: 5px 5px;
+	color: #333;
+}
+
+.entry-content, .featured-content {
+	margin-left: 5px;
+	padding-bottom: 10px;
+}
+
+.subtext {
+	margin-left: 5px;
+}
+
+.featured-title {
+	font-size: 1.5em;
+	background-color: #b3aecf;
+	color: #333;
+	border-radius: .2em;
+	padding: 5px 10px;
+}
+
+.featured-date {
+	font-style: italic;
+	font-size: .8em;
+	margin: 5px 5px;
+	color: white;
+}
+
+.featured-entry {
+	background-color: #8078b0;
+	margin: 10px auto;
+	border-radius: .2em;
+	color: white;
+}
+
+table {
+	margin: 10px auto;
+	border-radius: .2em;
+}
+
+th {
+	background-color: #484170;
+	color: white;
+	padding: 5px 10px;
+	font-size: .9em;
+}
+
+td {
+	font-size: .9em;
+	padding: 5px 10px;
+}
+
+.td-first {
+	background-color: #645a9b;
+	color: white;
+}
+
+.horiz-img {
+	width: 550px;
+	height: auto;
+	margin: 10px 50px;
+}
